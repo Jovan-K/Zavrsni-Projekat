@@ -1,5 +1,5 @@
 function skrolNaUvod(){
-    window.scroll({
+    window.scrollTo({
         top: 560,
         left: 0,
         behavior: 'smooth'
@@ -7,7 +7,7 @@ function skrolNaUvod(){
 }
 
 function skrolPreskociUvod(){
-    window.scroll({
+    window.scrollTo({
         top: 1200,
         left: 0,
         behavior: 'smooth'

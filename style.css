@@ -34,6 +34,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 999;
 }
 
 .hpolja{
@@ -79,7 +80,7 @@ header{
     bottom: 12px;
     position: absolute;
     width: 100%;
-    height: 4px;
+    height: 3px;
     background: linear-gradient(to left, var(--clr-4) 50%, var(--clr-naslov) 50%) right;
     background-size: 200%;
     transition: .2s ease-out;
@@ -91,7 +92,7 @@ header{
     bottom: 12px;
     position: absolute;
     width: 100%;
-    height: 4px;
+    height: 3px;
     background: linear-gradient(to left, var(--clr-4) 50%, var(--clr-naslov) 50%) right;
     background-size: 200%;
     transition: .2s ease-out;
@@ -103,7 +104,7 @@ header{
     bottom: 12px;
     position: absolute;
     width: 100%;
-    height: 4px;
+    height: 3px;
     background-color: var(--clr-naslov);
     border-radius: 5px;
 }
@@ -161,9 +162,128 @@ main{
     width: 100vw;
     height: 200vh;
     background-color: var(--clr-4);
-    justify-content: center;
+    display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 /* OSTALO JE SADRZAJ */
+
+/* POCETAK */
+.pocetak{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--clr-2);
+    color: var(--clr-4);
+}
+
+.pocetak h1{
+    color: var(--clr-naslov);
+    font-size: 4em;
+    z-index: 1;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.pocetak h3{
+    color: var(--clr-4);
+    font-size: 1.5em;
+    z-index: 1;
+}
+.pocetak button{
+    height: 4rem;
+    width: 10rem;
+    z-index: 1;
+
+    border: 1px solid var(--clr-1);
+    background-color: var(--clr-naslov);
+    transition: all 0.5s;
+
+    border-radius: 5px;
+
+    font-size: 1.5em;
+}
+.pocetak div{
+    z-index: 1;
+    display: flex;
+    gap: 1rem;
+}
+
+.pocetak p{
+    align-self: center;
+    font-size: 1.5em;
+    margin: 0;
+    color: var(--clr-naslov);
+    transition: all 0.5s;
+}
+
+.pocetak button:hover{
+    background-color: var(--clr-4);
+    cursor: pointer;
+}
+.pocetak p:hover{
+    color: var(--clr-4);
+    cursor: pointer;
+
+}
+.pocetak::before{
+    font-family: "Font Awesome 6 Free"; font-weight: 900;
+    content: "\f121";
+    position: absolute;
+    z-index: 0;
+    font-size: 25em;
+
+    color: var(--clr-1);
+}
+
+/* UVOD U VEB PROG */
+/*UVOD U HTML*/
+
+.uvod{
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--clr-4);
+
+}
+
+.usadrzaj{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.uhtml h2{
+    font-size: 2em;
+}
+
+.uhtml p{
+    font-size: 1.5em;
+}
+
+.uprimer{
+    width: 40rem;
+    height: 30rem;
+    background-image: url(./slike/primer1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.uprimer2{
+    width: 40rem;
+    height: 16rem;
+    border-radius: 1rem;
+    background-image: url(./slike/primer2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

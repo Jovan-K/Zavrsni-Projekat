@@ -1,16 +1,21 @@
 @import url('https://fonts.cdnfonts.com/css/product-sans');
-@import url("font-awesome/css/fontawesome-all.min.css");
 :root{
     --clr-1: rgb(33, 33, 33);
     --clr-2: rgb(50, 50, 50);
     --clr-3: rgb(13, 115, 119);
     --clr-4: rgb(238, 238, 238);
     --clr-5: rgb(20, 255, 236);
+    --clr-2-providno: rgba(50, 50, 50, 0.1);
     /*https://colorhunt.co/palette/2121213232320d737714ffec*/
 }
 
 *{
     font-family: 'Product Sans', sans-serif;
+}
+
+u{
+    background: var(--clr-2-providno);
+    border-radius: 5px;
 }
 
 body{
@@ -160,7 +165,7 @@ footer img{
 
 main{
     width: 100vw;
-    height: 300vh; /* VEEEEEEEEEEEEELICINAAAAAAAAAA   ---------------> OVAMOOOOO EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
+    height: 400vh; /* VEEEEEEEEEEEEELICINAAAAAAAAAA   ---------------> OVAMOOOOO EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
     background-color: var(--clr-4);
     display: flex;
     align-items: center;
@@ -276,8 +281,10 @@ main{
     z-index: -1;
     font-size: 20em;
     color: var(--clr-2);
-    opacity: 0.1;
+    opacity: 0.2;
+    bottom: 70px;
 }
+
 /*UVOD U HTML*/
 
 .uvod{
@@ -308,11 +315,42 @@ main{
     font-size: 1.5em;
 }
 
-.uprimer{
+.uprimertag{
     width: 40rem;
     height: 16rem;
     border-radius: 1rem;
     background-image: url(./slike/primer2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.uprimerhtmldoc{
+    width: 40rem;
+    height: 35rem;
+    border-radius: 1rem;
+
+    background-image: url(./slike/primer1.png);
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* UVOD U CSS */
+
+.ucss h2{
+    font-size: 2em;
+}
+
+.ucss p{
+    font-size: 1.5em;
+}
+
+.uprimer{
+    width: 40rem;
+    height: 16rem;
+    border-radius: 1rem;
+    background-image: linear-gradient(45deg, var(--clr-3), var(--clr-2));
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -322,9 +360,15 @@ main{
     height: 35rem;
     border-radius: 1rem;
 
-    background-image: url(./slike/primer1.png);
+    background-image: linear-gradient(45deg, var(--clr-3), var(--clr-2));
  
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+@media screen and (max-width: 1280px) {
+    *{
+        font-size: 12px
+    }
 }

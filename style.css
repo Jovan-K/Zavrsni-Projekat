@@ -234,7 +234,7 @@ main{
     content: "\f121";
     position: absolute;
     z-index: 0;
-    font-size: 25em;
+    font-size: 50em;
 
     color: var(--clr-1);
 }
@@ -250,7 +250,7 @@ main{
     align-items: center;
     flex-direction: column;
     background-color: var(--clr-4);
-
+    z-index: 1;
 }
 
 .usadrzaj{

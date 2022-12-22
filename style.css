@@ -160,7 +160,7 @@ footer img{
 
 main{
     width: 100vw;
-    height: 200vh;
+    height: 300vh; /* VEEEEEEEEEEEEELICINAAAAAAAAAA   ---------------> OVAMOOOOO EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
     background-color: var(--clr-4);
     display: flex;
     align-items: center;
@@ -240,6 +240,11 @@ main{
 }
 
 /* UVOD U VEB PROG */
+
+.uveb{
+    font-size: 1.5em;
+}
+
 /*UVOD U HTML*/
 
 .uvod{
@@ -272,18 +277,21 @@ main{
 
 .uprimer{
     width: 40rem;
-    height: 30rem;
-    background-image: url(./slike/primer1.png);
-    background-size: contain;
+    height: 16rem;
+    border-radius: 1rem;
+    background-image: url(./slike/primer2.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .uprimer2{
     width: 40rem;
-    height: 16rem;
+    height: 35rem;
     border-radius: 1rem;
-    background-image: url(./slike/primer2.png);
-    background-size: cover;
+
+    background-image: url(./slike/primer1.png);
+ 
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }

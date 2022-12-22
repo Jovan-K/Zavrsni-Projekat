@@ -1,11 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/product-sans');
 @import url("font-awesome/css/fontawesome-all.min.css");
 :root{
-    --clr-1: rgb(34, 40, 49);
-    --clr-2: rgb(57, 62, 70);
-    --clr-3: rgb(0, 173, 181);
+    --clr-1: rgb(33, 33, 33);
+    --clr-2: rgb(50, 50, 50);
+    --clr-3: rgb(13, 115, 119);
     --clr-4: rgb(238, 238, 238);
-    --clr-naslov: rgb(97, 218, 251);
+    --clr-naslov: rgb(20, 255, 236);
+    /*https://colorhunt.co/palette/2121213232320d737714ffec*/
 }
 
 *{

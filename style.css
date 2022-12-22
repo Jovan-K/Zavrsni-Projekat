@@ -241,10 +241,34 @@ main{
 
 /* UVOD U VEB PROG */
 
-.uveb{
+.uvodveb{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--clr-4);
+    z-index: 1;
+}
+.uveb p{
     font-size: 1.5em;
+    z-index: 0;
+}
+.uveb h2{
+    font-size: 2.5em;
+    z-index: 0;
+
 }
 
+.uveb::before{
+    font-family: "Font Awesome 6 Free"; font-weight: 900;
+    content: " "; /* \f13b     \f38b   \f3b9 */
+    position: absolute;
+    z-index: -1;
+    font-size: 10em;
+    color: var(--clr-2)
+}
 /*UVOD U HTML*/
 
 .uvod{

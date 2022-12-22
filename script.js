@@ -8,7 +8,7 @@ function skrolNaUvod(){
 
 function skrolPreskociUvod(){
     window.scroll({
-        top: 1000,
+        top: 1200,
         left: 0,
         behavior: 'smooth'
       });

@@ -5,13 +5,12 @@
     --clr-2: rgb(50, 50, 50);
     --clr-3: rgb(13, 115, 119);
     --clr-4: rgb(238, 238, 238);
-    --clr-naslov: rgb(20, 255, 236);
+    --clr-5: rgb(20, 255, 236);
     /*https://colorhunt.co/palette/2121213232320d737714ffec*/
 }
 
 *{
     font-family: 'Product Sans', sans-serif;
-
 }
 
 body{
@@ -49,7 +48,7 @@ header{
 }
 
 .hnaslov{
-    color: var(--clr-naslov);
+    color: var(--clr-5);
     margin-right: auto;
     position: relative;
     display: flex;
@@ -82,7 +81,7 @@ header{
     position: absolute;
     width: 100%;
     height: 3px;
-    background: linear-gradient(to left, var(--clr-4) 50%, var(--clr-naslov) 50%) right;
+    background: linear-gradient(to left, var(--clr-4) 50%, var(--clr-5) 50%) right;
     background-size: 200%;
     transition: .2s ease-out;
     border-radius: 5px;
@@ -94,7 +93,7 @@ header{
     position: absolute;
     width: 100%;
     height: 3px;
-    background: linear-gradient(to left, var(--clr-4) 50%, var(--clr-naslov) 50%) right;
+    background: linear-gradient(to left, var(--clr-4) 50%, var(--clr-5) 50%) right;
     background-size: 200%;
     transition: .2s ease-out;
     border-radius: 5px;
@@ -106,7 +105,7 @@ header{
     position: absolute;
     width: 100%;
     height: 3px;
-    background-color: var(--clr-naslov);
+    background-color: var(--clr-5);
     border-radius: 5px;
 }
 
@@ -183,7 +182,7 @@ main{
 }
 
 .pocetak h1{
-    color: var(--clr-naslov);
+    color: var(--clr-5);
     font-size: 4em;
     z-index: 1;
     margin: 0;
@@ -200,7 +199,7 @@ main{
     z-index: 1;
 
     border: 1px solid var(--clr-1);
-    background-color: var(--clr-naslov);
+    background-color: var(--clr-5);
     transition: all 0.5s;
 
     border-radius: 5px;
@@ -217,7 +216,7 @@ main{
     align-self: center;
     font-size: 1.5em;
     margin: 0;
-    color: var(--clr-naslov);
+    color: var(--clr-5);
     transition: all 0.5s;
 }
 

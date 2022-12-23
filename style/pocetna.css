@@ -1,6 +1,6 @@
 main{
     width: 100vw;
-    height: 470vh; /* VEEEEEEEEEEEEELICINAAAAAAAAAA   ---------------> OVAMOOOOO EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
+ /* VEEEEEEEEEEEEELICINAAAAAAAAAA   ---------------> OVAMOOOOO EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
     background-color: var(--clr-4);
     display: flex;
     align-items: center;
@@ -118,7 +118,6 @@ main{
     color: var(--clr-2);
     opacity: 0.2;
     bottom: 70px;
-    overflow: hidden;
 }
 
 /*UVOD U HTML*/
@@ -282,6 +281,13 @@ main{
     flex-direction: column;
     background-color: var(--clr-4);
     z-index: 1;
+}
+
+.unast div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
 .unast h2{

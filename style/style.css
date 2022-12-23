@@ -89,6 +89,10 @@ header{
     transition: 2s;
 }
 
+.htrenutna:hover{
+    cursor: default;
+}
+
 .htrenutna h2{
     font-weight: 100;
 }
@@ -111,7 +115,7 @@ header{
     height: 3px;
     background: linear-gradient(to left, var(--clr-4) 50%, var(--clr-5) 50%) right;
     background-size: 200%;
-    transition: .2s ease-out;
+    transition: .3s ease-out;
     border-radius: 5px;
 }
 
@@ -123,7 +127,7 @@ header{
     height: 3px;
     background: linear-gradient(to left, var(--clr-4) 50%, var(--clr-5) 50%) right;
     background-size: 200%;
-    transition: .2s ease-out;
+    transition: .3s ease-out;
     border-radius: 5px;
 }
 
@@ -188,6 +192,6 @@ footer img{
 
 @media only screen and (max-width: 1280px) {
     *{
-        font-size: 20px;
+        font-size: 14px;
     }
 }

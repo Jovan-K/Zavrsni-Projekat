@@ -259,13 +259,13 @@ main{
     transition: all 0.5s;
 
     border-radius: 5px;
-    box-shadow: 0 0 55px 15px rgba(238, 238, 238, 0.2);
+    box-shadow: 0 0 55px 15px rgba(238, 238, 238, 0.1);
     font-size: 1.5em;
 }
 
 .uprimerjsdoc button:hover{
     background-color: var(--clr-4);
     cursor: pointer;
-    box-shadow: 0 0 55px 15px rgba(238, 238, 238, 0.5);
+    box-shadow: 0 0 55px 15px rgba(238, 238, 238, 0.2);
 
 }

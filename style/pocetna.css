@@ -158,6 +158,9 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
+    box-shadow: 0 0 55px 15px rgba(0, 0, 0, 0.1);
+
 }
 .uprimerhtmldoc{
     width: 40rem;
@@ -189,6 +192,7 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
 }
 .uprimercss{
     width: 80rem;
@@ -200,6 +204,9 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
+    box-shadow: 0 0 55px 15px rgba(0, 0, 0, 0.1);
+
 }
 
 /* UVOD U JS*/
@@ -220,10 +227,13 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
+
+    box-shadow: 0 0 55px 15px rgba(0, 0, 0, 0.1);
+
 }
 .uprimerjs{
     width: 60rem;
@@ -235,6 +245,8 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
+    box-shadow: 0 0 55px 15px rgba(0, 0, 0, 0.1);
 }
 
 .uprimerjsdoc button{

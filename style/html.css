@@ -1,0 +1,85 @@
+main{
+    width: 100vw;
+    height: 400vh; /* VEEEEEEEEEEEEELICINAAAAAAAAAA   ---------------> OVAMOOOOO EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
+    background-color: var(--clr-4);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sadrzaj{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.htmlnaslov{
+    margin-top: 5rem;
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-2);
+    position: relative;
+    z-index: 0;
+}
+
+.htmlnaslov::before{
+    font-family: "Font Awesome 5 free"; font-weight: 500;
+    content: "\f2d0  \f1c9  \f07c  \f2d2  \f15c";
+    position: absolute;
+    z-index: 0;
+    font-size: 8em;
+
+    color: var(--clr-1);
+}
+
+.htmlnaslov h2{
+    font-size: 2em;
+    margin-right: auto;
+    color: var(--clr-4);
+    z-index: 1;
+}
+
+.htmlosnovni{
+    width: 100%;
+    z-index: 2;
+    background-color: var(--clr-4);
+    display: flex;
+    justify-content: center;
+}
+
+.hsadrzaj{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.htmlosnovni h2{
+    font-size: 2em;
+    margin-right: auto;
+}
+
+.htmlosnovni p{
+    font-size: 1.5em;
+}
+
+.htmlpolje{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.kodpen{
+    width: 100%;
+    height: 500px;
+    background-color: var(--clr-1);
+}

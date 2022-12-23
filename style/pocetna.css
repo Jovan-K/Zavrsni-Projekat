@@ -108,7 +108,7 @@ main{
 
 .uvodveb::before{
     font-family: "Font Awesome 5 brands"; font-weight: 500;
-    content: "\f13b          \f38b          \f3b9";
+    content: "\f13b  \f38b  \f3b9";
     position: absolute;
     top: 50%;
     left: 50%;

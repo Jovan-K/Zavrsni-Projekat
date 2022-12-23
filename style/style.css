@@ -60,6 +60,11 @@ header{
     align-items: center;
 }
 
+.hnaslov a{
+    text-decoration: none;
+    color: var(--clr-5);
+}
+
 .hnaslov:hover{
     cursor: default;
 }
@@ -79,6 +84,24 @@ header{
     font-weight: 100;
 }
 
+.htrenutna{
+    position: relative;
+    transition: 2s;
+}
+
+.htrenutna h2{
+    font-weight: 100;
+}
+
+.htrenutna::after{
+    content: '';
+    bottom: 12px;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: var(--clr-5);
+    border-radius: 5px;
+}
 
 .hstranica::after{
     content: '';
@@ -163,3 +186,8 @@ footer img{
     color: var(--clr-3)
 }
 
+@media only screen and (max-width: 1280px) {
+    *{
+        font-size: 12px;
+    }
+  }

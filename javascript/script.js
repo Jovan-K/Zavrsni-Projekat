@@ -22,3 +22,16 @@ function jsProba(){
     document.getElementById("proba").innerHTML = "Објашњење примера:";
   }
 }
+
+
+function predjiNaHTML(){
+  window.location.href = "../stranice/html.html";
+}
+
+function predjiNaCSS(){
+  window.location.href = "../stranice/css.html";
+}
+
+function predjiNaJS(){
+  window.location.href = "../stranice/javascript.html";
+}

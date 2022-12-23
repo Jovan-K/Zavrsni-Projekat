@@ -1,0 +1,165 @@
+@import url('https://fonts.cdnfonts.com/css/product-sans');
+:root{
+    --clr-1: rgb(33, 33, 33);
+    --clr-2: rgb(50, 50, 50);
+    --clr-3: rgb(13, 115, 119);
+    --clr-4: rgb(238, 238, 238);
+    --clr-5: rgb(20, 255, 236);
+    --clr-2-providno: rgba(50, 50, 50, 0.1);
+    /*https://colorhunt.co/palette/2121213232320d737714ffec*/
+}
+
+*{
+    font-family: 'Product Sans', sans-serif;
+}
+
+u{
+    background: var(--clr-2-providno);
+    border-radius: 5px;
+}
+
+body{
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-4);
+    overflow-x: hidden;
+}
+
+header{
+    margin: 0;
+    position: fixed;
+    top: 0;
+    background-color: var(--clr-1);
+    height: 5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.hpolja{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-4);
+    gap: 3rem;
+}
+
+.hnaslov{
+    color: var(--clr-5);
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.hnaslov:hover{
+    cursor: default;
+}
+
+.hgithub{
+    color: var(--clr-4);
+    margin-left: auto;
+    position: relative;
+}
+
+.hstranica{
+    position: relative;
+    transition: 2s;
+}
+
+.hstranica h2{
+    font-weight: 100;
+}
+
+
+.hstranica::after{
+    content: '';
+    bottom: 12px;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, var(--clr-4) 50%, var(--clr-5) 50%) right;
+    background-size: 200%;
+    transition: .2s ease-out;
+    border-radius: 5px;
+}
+
+.hgithub::after{
+    content: '';
+    bottom: 12px;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, var(--clr-4) 50%, var(--clr-5) 50%) right;
+    background-size: 200%;
+    transition: .2s ease-out;
+    border-radius: 5px;
+}
+
+.hnaslov::after{
+    content: '';
+    bottom: 12px;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: var(--clr-5);
+    border-radius: 5px;
+}
+
+.hstranica:hover::after{
+    background-position: left;
+}
+
+.hgithub:hover::after{
+    background-position: left;
+}
+
+a {color: white;}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+
+footer{
+    margin: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-1);
+
+    gap: 1rem;
+}
+
+footer img{
+    height: 10rem;
+}
+
+.fpolja{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--clr-4);
+    gap: 3rem;
+}
+
+.fpolja b{
+    color: var(--clr-3)
+}
+.fpolja h2{
+    color: var(--clr-3)
+}
+

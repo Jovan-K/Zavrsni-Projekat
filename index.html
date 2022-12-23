@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/pocetna.css">
+
     <script src="https://kit.fontawesome.com/ed73c4aa3e.js" crossorigin="anonymous"></script>
 
     <title>Front-end веб програмирање</title> 
@@ -13,10 +15,10 @@
     <header>
         <div class="hpolja">
             <div class="hnaslov"><h2>Front-end</h2></div>
-            <div class="hstranica"><h2><a href="">HTML</a></h2></div>
-            <div class="hstranica"><h2><a href="">CSS</a></h2></div>
-            <div class="hstranica"><h2><a href="">JavaScript</a></h2></div>
-            <div class="hstranica"><h2><a href="">Аутор</a></h2></div>
+            <div class="hstranica"><h2><a href="./stranice/html.html">HTML</a></h2></div>
+            <div class="hstranica"><h2><a href="./stranice/css.html">CSS</a></h2></div>
+            <div class="hstranica"><h2><a href="./stranice/javascript.html">JavaScript</a></h2></div>
+            <div class="hstranica"><h2><a href="./stranice/autor.html">Аутор</a></h2></div>
             <div class="hgithub"><h2><a href="https://github.com/Jovan-K">GitHub</a></h2></div>
         </div>
     </header>
@@ -38,15 +40,15 @@
             <div class="usadrzaj">
                 <div class="uveb">
                     <h2>
-                        Шта је веб програмирање? 
+                        <u>Шта је веб програмирање?</u>
                     </h2>
                     <p>
-                        Веб програмирање подразумева креирање веб страница уз помоћ програмских језика попут HTML-а, CSS-а и JavaScript-а. <br>
+                        Веб програмирање подразумева креирање веб страница уз помоћ програмских језика попут <u>HTML-а</u>, <u>CSS-а</u> и <u>JavaScript-а.</u> <br>
                         На овом сајту ћете научити основе ових програмских језика уз примере који ће омогућити пробу истих. <br>
-                        На крају ћете бити способни да креирате просте веб странице и занимљиве веб апликације налик оних које можете видети на мом GitHub профилу. <br>
+                        На крају ћете бити способни да креирате просте веб странице и занимљиве веб апликације налик оних које можете видети на мом <u>GitHub</u> профилу. <br>
                         Чар front-end веб програмирања лежи у томе да је ваш рад видљив визуелно и може да се обликује и стилизује по вашој жељи тако да подстиче креативност и машту. <br>
-                        HTML (HyperText Markup Language) се користи за описивање садржаја на веб страници, док CSS (Cascading Style Sheets) омогућава уређивање изгледа странице.  <br>
-                        JavaScript је језик програмирања који се користи за стварање интерактивности на веб страницама. <br>
+                        <u>HTML (HyperText Markup Language)</u> се користи за описивање садржаја на веб страници, док <u>CSS (Cascading Style Sheets)</u> омогућава уређивање изгледа странице.  <br>
+                        <u>JavaScript</u> је језик програмирања који се користи за стварање интерактивности на веб страницама. <br>
                     </p>
 
                 </div>
@@ -73,9 +75,9 @@
                     <h2>Објашњење примера:</h2>
                     <p>
                         Прва линија дефинише да је овај документ HTML5 документ. <br>
-                        <u>Head</u> елемент садржи информације о HTML страници. <br>
-                        <u>Title</u> елемент одредђује наслов HTML странице. <br>
-                        <u>Body</u> је тело HTML странице и садржи сав видљив садржај. <br>
+                        <u>head</u> елемент садржи информације о HTML страници. <br>
+                        <u>title</u> елемент одредђује наслов HTML странице. <br>
+                        <u>body</u> је тело HTML странице и садржи сав видљив садржај. <br>
                         <u>h1</u> таг дефинише велики наслов. <br>
                         <u>p</u> таг дефинише параграф. <br>
                     </p>
@@ -93,13 +95,12 @@
                         <u>CSS</u> описује како HTML елементи треба да буду приказани на екрану, папиру или осталим медијумима.<br>
                         <u>CSS</u> нам скраћује рад, може да контролише више веб страница истовремено. <br>
                         <u>CSS</u> може да се смешта у спољашњим CSS фајловима. <br>
-                        
                     </p>
                 </div>
-                <div class="uprimer"></div>
+                <div class="uprimercss"></div>
             </div>
             <div class="usadrzaj">
-                <div class="uprimer2"></div>
+                <div class="uprimercssdoc"></div>
                 <div class="ucss">
                     <h2>Објашњење примера:</h2>
                     <p>
@@ -114,17 +115,39 @@
             </div>
         </div>
         <!-- STA JE JAVASCRIPT -->
+        <div class="uvod">
+            <div class="usadrzaj">
+                <div class="ujs">
+                    <h2><u>Шта је JavaScript?</u></h2>
+                    <p>
+                        <u>JavaScript</u> је најпопуларнији програмски језк на свету. <br>
+                        <u>JavaScript</u> је програмски језик веб-а. <br>
+                        <u>JavaScript</u> је лак да се научи. <br>
+                        <!--
+                            25.11.2007 - Mateja Mijalkovic je postao prvak sveta u kategoriji ispod 7 godina, podkategoriji: JS
+                            // Komentar narucen od strane Mateje
+                        -->
+                    </p>
+                </div>
+                <div class="uprimerjs"></div>
+            </div>
+            <div class="usadrzaj">
+                <div class="uprimerjsdoc">
+                    <button onclick="jsProba()">Пробај!</button>
+                </div>
+                <div class="ujs">
+                    <h2 id="proba">Објашњење примера:</h2>
+                    <p>
+                        На левој слици се налази делић <u>HTML-а</u> овог сајта.  <br>
+                        Наслову је дат <u>ID</u> како би га селектор могао пронаћи, а дугмету позив функције коју можете видети у претходној слици. <br>
+                        Фунција мења <u>.innerHTML</u> особину селектованог наслова што буквално значи мењање садржаја између тагова за наслов у овом случају. <br>
+                        Можете видети баш како ова функција ради кликом на дугме на средини слике.<br>
+                        Функција је мало унапређена од оне са слике тако да поновним кликом на дугме враћамо претходни текст.<br>
 
-        <!--
-            JavaScript је најпопуларнији програмски језк на свету.
-            JavaScript је програмски језик веб-а.
-            JavaScript је лак да се научи.
-            25.11.2007 - Матеја Мијалковић је постао првак света у категорији до 7 година - подкатегорији: JS
-        -->
-
-
-        
-
+                    </p>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
@@ -151,6 +174,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="./javascript/script.js"></script>
 </body>
 </html>

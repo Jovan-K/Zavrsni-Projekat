@@ -1,0 +1,259 @@
+main{
+    width: 100vw;
+    height: 450vh; /* VEEEEEEEEEEEEELICINAAAAAAAAAA   ---------------> OVAMOOOOO EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
+    background-color: var(--clr-4);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* OSTALO JE SADRZAJ */
+
+/* POCETAK */
+.pocetak{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--clr-2);
+    color: var(--clr-4);
+}
+
+.pocetak h1{
+    color: var(--clr-5);
+    font-size: 4em;
+    z-index: 1;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.pocetak h3{
+    color: var(--clr-4);
+    font-size: 1.5em;
+    z-index: 1;
+}
+.pocetak button{
+    height: 4rem;
+    width: 10rem;
+    z-index: 1;
+
+    border: 1px solid var(--clr-1);
+    background-color: var(--clr-5);
+    transition: all 0.5s;
+
+    border-radius: 5px;
+
+    font-size: 1.5em;
+}
+.pocetak div{
+    z-index: 1;
+    display: flex;
+    gap: 1rem;
+}
+
+.pocetak p{
+    align-self: center;
+    font-size: 1.5em;
+    margin: 0;
+    color: var(--clr-5);
+    transition: all 0.5s;
+}
+
+.pocetak button:hover{
+    background-color: var(--clr-4);
+    cursor: pointer;
+}
+.pocetak p:hover{
+    color: var(--clr-4);
+    cursor: pointer;
+
+}
+.pocetak::before{
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    content: "\f121";
+    position: absolute;
+    z-index: 0;
+    font-size: 50em;
+
+    color: var(--clr-1);
+}
+
+/* UVOD U VEB PROG */
+
+.uvodveb{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--clr-4);
+    position: relative;
+    z-index: 1;
+}
+.uveb p{
+    font-size: 1.5em;
+    z-index: 0;
+}
+.uveb h2{
+    font-size: 2.5em;
+    z-index: 0;
+
+}
+
+.uveb{
+    position: relative;
+}
+
+.uvodveb::before{
+    font-family: "Font Awesome 5 brands"; font-weight: 500;
+    content: "\f13b          \f38b          \f3b9";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    font-size: 20em;
+    color: var(--clr-2);
+    opacity: 0.2;
+    bottom: 70px;
+}
+
+/*UVOD U HTML*/
+
+.uvod{
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--clr-4);
+    z-index: 1;
+}
+
+.usadrzaj{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.uhtml h2{
+    font-size: 2em;
+}
+
+.uhtml p{
+    font-size: 1.5em;
+}
+
+.uprimertag{
+    width: 40rem;
+    height: 16rem;
+    border-radius: 1rem;
+    background-image: url(../slike/primer2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.uprimerhtmldoc{
+    width: 40rem;
+    height: 35rem;
+    border-radius: 1rem;
+
+    background-image: url(../slike/primer1.png);
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* UVOD U CSS */
+
+.ucss h2{
+    font-size: 2em;
+}
+
+.ucss p{
+    font-size: 1.5em;
+}
+
+.uprimercssdoc{
+    width: 40rem;
+    height: 35rem;
+    border-radius: 1rem;
+    background-image: url(../slike/primercss.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.uprimercss{
+    width: 80rem;
+    height: 16rem;
+    border-radius: 1rem;
+
+    background-image: url(../slike/primerparagraf.png); 
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* UVOD U JS*/
+
+.ujs h2{
+    font-size: 2em;
+}
+
+.ujs p{
+    font-size: 1.5em;
+}
+
+.uprimerjsdoc{
+    width: 80rem;
+    height: 35rem;
+    border-radius: 1rem;
+    background-image: url(../slike/primerjskod.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uprimerjs{
+    width: 60rem;
+    height: 16rem;
+    border-radius: 1rem;
+
+    background-image: url(../slike/primerjs.png);
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.uprimerjsdoc button{
+    height: 4rem;
+    width: 10rem;
+    z-index: 2;
+
+    border: 1px solid var(--clr-1);
+    background-color: var(--clr-5);
+    transition: all 0.5s;
+
+    border-radius: 5px;
+    box-shadow: 0 0 55px 15px rgba(238, 238, 238, 0.2);
+    font-size: 1.5em;
+}
+
+.uprimerjsdoc button:hover{
+    background-color: var(--clr-4);
+    cursor: pointer;
+    box-shadow: 0 0 55px 15px rgba(238, 238, 238, 0.5);
+
+}

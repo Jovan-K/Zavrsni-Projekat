@@ -1,6 +1,6 @@
 main{
     width: 100vw;
-    height: 400vh; /* VEEEEEEEEEEEEELICINAAAAAAAAAA   ---------------> OVAMOOOOO EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
+    height: 590vh; /* VEEEEEEEEEEEEELICINAAAAAAAAAA   ---------------> OVAMOOOOO EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
     background-color: var(--clr-4);
     display: flex;
     align-items: center;
@@ -30,7 +30,7 @@ main{
 
 .htmlnaslov::before{
     font-family: "Font Awesome 5 free"; font-weight: 500;
-    content: "\f2d0  \f1c9  \f07c  \f2d2  \f15c";
+    content: "\f1c9  \f2d0  \f2d2  \f07c  \f15c";
     position: absolute;
     z-index: 0;
     font-size: 8em;

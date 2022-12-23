@@ -23,14 +23,14 @@ main{
 
 .pocetak h1{
     color: var(--clr-5);
-    font-size: 4em;
+    font-size: 4rem;
     z-index: 1;
     margin: 0;
     margin-bottom: 1rem;
 }
 .pocetak h3{
     color: var(--clr-4);
-    font-size: 1.5em;
+    font-size: 1.5rem;
     z-index: 1;
 }
 .pocetak button{
@@ -54,7 +54,7 @@ main{
 
 .pocetak p{
     align-self: center;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     margin: 0;
     color: var(--clr-5);
     transition: all 0.5s;
@@ -74,7 +74,7 @@ main{
     content: "\f121";
     position: absolute;
     z-index: 0;
-    font-size: 50em;
+    font-size: 50rem;
 
     color: var(--clr-1);
 }
@@ -93,11 +93,11 @@ main{
     z-index: 1;
 }
 .uveb p{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     z-index: 0;
 }
 .uveb h2{
-    font-size: 2.5em;
+    font-size: 2.5rem;
     z-index: 0;
 
 }
@@ -114,10 +114,11 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
-    font-size: 20em;
+    font-size: 18rem;
     color: var(--clr-2);
     opacity: 0.2;
     bottom: 70px;
+    overflow: hidden;
 }
 
 /*UVOD U HTML*/
@@ -143,11 +144,11 @@ main{
 }
 
 .uhtml h2{
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .uhtml p{
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .uprimertag{
@@ -177,11 +178,11 @@ main{
 /* UVOD U CSS */
 
 .ucss h2{
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .ucss p{
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .uprimercssdoc{
@@ -212,11 +213,11 @@ main{
 /* UVOD U JS*/
 
 .ujs h2{
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .ujs p{
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .uprimerjsdoc{
@@ -284,11 +285,11 @@ main{
 }
 
 .unast h2{
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .unast p{
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .unast button{

@@ -1,12 +1,10 @@
 main{
     width: 100vw;
-    /* VEEEEEEEEEEEEELICINAAAAAAAAAA   ---------------> OVAMOOOOO EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
     background-color: var(--clr-4);
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-
 .sadrzaj{
     width: 60%;
     height: 100%;

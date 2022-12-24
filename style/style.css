@@ -42,6 +42,14 @@ header{
     z-index: 999;
 }
 
+main{
+    width: 100vw;
+    background-color: var(--clr-4);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .hpolja{
     height: 100%;
     width: 60%;

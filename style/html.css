@@ -1,10 +1,3 @@
-main{
-    width: 100vw;
-    background-color: var(--clr-4);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
 .sadrzaj{
     width: 60%;
     height: 100%;
@@ -80,4 +73,5 @@ main{
     width: 100%;
     height: 500px;
     background-color: var(--clr-1);
+    box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.25);
 }

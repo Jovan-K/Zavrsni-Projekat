@@ -58,6 +58,7 @@ main{
     align-items: center;
     color: var(--clr-4);
     gap: 3rem;
+    font-size: 1rem;
 }
 
 .hnaslov{

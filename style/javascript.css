@@ -7,7 +7,7 @@
     gap: 2rem;
 }
 
-.cssnaslov{
+.jsnaslov{
     margin-top: 5rem;
     height: 10rem;
     width: 100%;
@@ -19,7 +19,7 @@
     z-index: 0;
 }
 
-.cssnaslov::before{
+.jsnaslov::before{
     font-family: "Font Awesome 5 free"; font-weight: 500;
     content: "\f1c9  \f2d0  \f2d2  \f07c  \f15c";
     position: absolute;
@@ -29,14 +29,14 @@
     color: var(--clr-1);
 }
 
-.cssnaslov h2{
-    font-size: 2rem;
+.jsnaslov h2{
+    font-size: 2em;
     margin-right: auto;
     color: var(--clr-4);
     z-index: 1;
 }
 
-.cssosnovni{
+.jsosnovni{
     width: 100%;
     z-index: 2;
     background-color: var(--clr-4);
@@ -44,7 +44,7 @@
     justify-content: center;
 }
 
-.csadrzaj{
+.jsadrzaj{
     width: 60%;
     height: 100%;
     display: flex;
@@ -53,16 +53,16 @@
     flex-direction: column;
 }
 
-.cssosnovni h2{
+.jsosnovni h2{
     font-size: 2rem;
     margin-right: auto;
 }
 
-.cssosnovni p{
+.jsosnovni p{
     font-size: 1.5rem;
 }
 
-.csspolje{
+.jspolje{
     width: 100%;
     display: flex;
     flex-direction: column;

@@ -24,13 +24,13 @@
     content: "\f1c9  \f2d0  \f2d2  \f07c  \f15c";
     position: absolute;
     z-index: 0;
-    font-size: 8em;
+    font-size: 8rem;
 
     color: var(--clr-1);
 }
 
 .htmlnaslov h2{
-    font-size: 2em;
+    font-size: 2rem;
     margin-right: auto;
     color: var(--clr-4);
     z-index: 1;
@@ -54,12 +54,12 @@
 }
 
 .htmlosnovni h2{
-    font-size: 2em;
+    font-size: 2rem;
     margin-right: auto;
 }
 
 .htmlosnovni p{
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .htmlpolje{

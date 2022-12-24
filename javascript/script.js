@@ -35,3 +35,12 @@ function predjiNaCSS(){
 function predjiNaJS(){
   window.location.href = "../stranice/javascript.html";
 }
+
+
+window.onload = ()=>{
+  let danas = new Date();
+  if (danas.getMonth() == 11 || danas.getMonth() == 0){
+    document.getElementById("praznici").innerHTML = "Срећни празници! ❄";
+  }
+}
+  

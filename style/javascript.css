@@ -75,3 +75,10 @@
     background-color: var(--clr-1);
     box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.25);
 }
+
+.minikodpen{
+    width: 100%;
+    height: 250px;
+    background-color: var(--clr-1);
+    box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.25);
+}

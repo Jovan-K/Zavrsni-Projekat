@@ -1,4 +1,122 @@
+
 main{
-    height: 100vh;
     background-color: var(--clr-2);
 }
+
+.sadrzaj{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.slika{
+    width: 25rem;
+    height: 40rem;
+    background-image: url("../slike/Jovan.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*Ovo*/
+    border: 0.35rem solid;
+	border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+	animation: borderRotate var(--d) linear infinite forwards;
+}
+
+.opis{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30rem;
+}
+
+.opis h1{
+    font-size: 3rem;
+    color: var(--clr-4);
+    position: relative;
+}
+.opis h1::after{
+    content: '';
+    bottom: 0px;
+    left: 0;
+    position: absolute;
+    width: 20rem;
+    height: 5px;
+    background-color: var(--clr-5);
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.opis p{
+    font-size: 1.5rem;
+    color: var(--clr-4);
+    font-weight: 500;
+}
+
+.omeni{
+    margin-top: 8rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+:root {
+	--d: 2500ms;
+	--angle: 90deg;
+	--gradX: 100%;
+	--gradY: 50%;
+	--c1: rgb(20, 255, 236);
+	--c2: rgb(33, 33, 33);
+}
+
+
+@keyframes borderRotate {
+	100% {
+		--angle: 420deg;
+	}
+}
+
+@keyframes borderRadial {
+	20% {
+		--gradX: 100%;
+		--gradY: 50%;
+	}
+	40% {
+		--gradX: 100%;
+		--gradY: 100%;
+	}
+	60% {
+		--gradX: 50%;
+		--gradY: 100%;
+	}
+	80% {
+		--gradX: 0%;
+		--gradY: 50%;
+	}
+	100% {
+		--gradX: 50%;
+		--gradY: 0%;
+	}
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 90deg;
+    inherits: true;
+  }
+  
+  @property --gradX {
+    syntax: '<percentage>';
+    initial-value: 50%;
+    inherits: true;
+  }
+  
+  @property --gradY {
+    syntax: '<percentage>';
+    initial-value: 0%;
+    inherits: true;
+  }

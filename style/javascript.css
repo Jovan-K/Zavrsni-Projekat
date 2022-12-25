@@ -30,7 +30,7 @@
 }
 
 .jsnaslov h2{
-    font-size: 2em;
+    font-size: 2rem;
     margin-right: auto;
     color: var(--clr-4);
     z-index: 1;

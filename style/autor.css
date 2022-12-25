@@ -45,13 +45,13 @@ main{
     height: 5px;
     background-color: var(--clr-5);
     border-radius: 5px;
-    z-index: 1;
 }
 
 .opis p{
     font-size: 1.5rem;
     color: var(--clr-4);
     font-weight: 500;
+
 }
 
 .omeni{
@@ -61,6 +61,18 @@ main{
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.omeni::before{
+    content: "";
+    position: absolute;
+    background-color: var(--clr-1);
+    width: 5000px;
+    height: 300px;
+    rotate: -10deg;
+    z-index: -1;
 }
 
 
@@ -107,16 +119,81 @@ main{
     syntax: '<angle>';
     initial-value: 90deg;
     inherits: true;
-  }
+}
   
-  @property --gradX {
+@property --gradX {
     syntax: '<percentage>';
     initial-value: 50%;
     inherits: true;
-  }
+}
   
-  @property --gradY {
+@property --gradY {
     syntax: '<percentage>';
     initial-value: 0%;
     inherits: true;
-  }
+}
+
+
+#image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0, -50%); 
+    user-select: none; /* -- Prevent image highlighting -- */
+    z-index: 2;
+
+}
+  
+#image-track > .image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% center;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.9;
+}
+
+.projekti{
+    width: 100vw;
+    height: 40rem;
+    position: relative;
+    background-color: var(--clr-1);
+    transition: all 1s ease-in-out;
+    z-index: 1;
+}
+
+
+.projekti::before{
+    content: "Пројекти:";
+    position: absolute;
+    font-size: 8rem;
+    top: 50px;
+    left: 50px;
+    opacity: 1;
+    color: var(--clr-4);
+    transition: all 1s ease-in-out;
+
+}
+
+.projekti::after{
+    content: "Превучите мишем да прелистате...";
+    position: absolute;
+    font-size: 3rem;
+    top: 300px;
+    left: 50px;
+    color: var(--clr-4); 
+    opacity: 1;
+    z-index: 0;
+    transition: all 1s ease-in-out;
+}
+
+.skriveni::after{
+    opacity: 0;
+}
+
+.skriveni::before{
+    opacity: 0;
+}

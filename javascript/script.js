@@ -25,15 +25,15 @@ function jsProba(){
 
 
 function predjiNaHTML(){
-  window.location.href = "../stranice/html.html";
+  window.location.href = "./stranice/html.html";
 }
 
 function predjiNaCSS(){
-  window.location.href = "../stranice/css.html";
+  window.location.href = "./stranice/css.html";
 }
 
 function predjiNaJS(){
-  window.location.href = "../stranice/javascript.html";
+  window.location.href = "./stranice/javascript.html";
 }
 
 
